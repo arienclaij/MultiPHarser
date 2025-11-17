@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ba0c92376529460c3e694b408ed39fcf",
+    "packages": [
+        {
+            "name": "vanilla/nbbc",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vanilla/nbbc.git",
+                "reference": "e18cf9c50136e1deb5a91e947ffadc90e1e61665"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vanilla/nbbc/zipball/e18cf9c50136e1deb5a91e947ffadc90e1e61665",
+                "reference": "e18cf9c50136e1deb5a91e947ffadc90e1e61665",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nbbc\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Todd Burry",
+                    "email": "todd@vanillaforums.com"
+                }
+            ],
+            "description": "A composer-compatible fork of the NBBC BBCode parsing library.",
+            "support": {
+                "source": "https://github.com/vanilla/nbbc/tree/v3.0.0"
+            },
+            "time": "2025-09-16T15:29:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "vanilla/nbbc": "^3.0"
+    }
+}
